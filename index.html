@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Döviz Çevirici</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h2>DÖVİZ ÇEVİRİCİ</h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="form-area">
+    
+    <input type="number" id="amount" placeholder="Miktar girin" />
+ <select id="from">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="TRY">TRY</option>
+    </select>
+
+    <select id="to">
+      <option value="TRY">TRY</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+    <button id="convertBtn">Çevir</button>
+  </div>
+    
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
